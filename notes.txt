@@ -1,0 +1,16 @@
+Front-end
+	HTML5
+	CSS
+	Javascript
+	JQuery
+	AngularJS
+
+Back-end
+	Node.js and Express
+	Ruby on Rails
+	SQL with PostgreSQL
+	MongoDB with Mongoose
+
+Other Skills
+	TDD (Assert, Mocha-Chai)
+	Version Control (GitHub, SourceDepot, TFS)
