@@ -12,6 +12,18 @@ ul{
 	color: black;
 }
 
+h2{
+	margin-top: 0;
+}
+
+h5{
+	display: inline;
+}
+
+p{
+	margin-top: 10px;
+}
+
 div.top-navbar{
 	display: none;
 	background-color: rgba(80, 80, 200, 0.6);
@@ -154,9 +166,13 @@ a.custom-drop:hover{
 	width: auto;
 	display: inline-block;
 	border: 1px solid black;
-	border-radius: 5px;
 	padding: 5px;
 	margin: 5px;
+}
+
+.white{
+	background: white;
+	padding: 1px 5px;
 }
 
 .project-container{
@@ -179,6 +195,11 @@ img.project-thumbnail{
 	vertical-align: bottom;
 	float: right;
 	width: 100%;
+	padding-left: 10px;
+}
+
+.logo-square{
+	height: 24px;
 }
 
 @media (max-width: 850px) {
