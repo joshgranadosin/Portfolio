@@ -1,0 +1,75 @@
+/* left toolbar styles */
+aside.left{
+	display: inline-block;
+	position: fixed; top: 0; left: 0;
+	width: 195.75pt; height: 100%;
+
+	background-color: rgba(21, 174, 166, 1);
+}
+
+img.logo{
+	width: 138.75pt; height: 80.25pt;
+	margin-top: 33.75pt; margin-left: 27pt; margin-bottom: 50.25pt;
+}
+
+a.left{
+	display: block;
+	width: 100%; height: 48.75pt;
+	padding-top: 10.5pt; padding-left: 33pt;
+
+	font-family: 'Oswald', sans-serif;
+	font-size: 18pt; color: white;
+}
+
+/* main section styles */
+section.main{ /* all pages */
+	margin-left: 195.75pt;
+	width: 822.75pt; height: 100vh;
+}
+
+h1{ /* all pages */
+	display: block; margin-top: 0;
+	text-align: left;
+	padding-top: 34pt; padding-left: 26pt;
+	font-family: 'Oswald', sans-serif;
+	font-size: 27pt; color: rgba(21, 174, 166, 1);
+	line-height: 40pt; letter-spacing: 1.5pt;
+}
+
+p.white{
+	display: block;
+	width: 215pt;
+	padding-top: 18.75pt; margin-left: 308.25pt;
+
+	font-family: 'Martel', sans-serif;
+	font-size: 12pt; color: #FEFCFF;
+	line-height: 20pt; letter-spacing: .5pt;
+}
+
+a.toast{
+	display: inline-block;
+	position: fixed; top: 35pt; right: 0pt;
+	padding: 11pt 24pt;
+	width: 170pt; height: 40pt;
+
+	font-family: 'Oswald', sans-serif;
+	font-size: 13.5pt; color: white;
+	letter-spacing: .4pt;
+
+	background-color: rgba(21, 174, 166, 1);
+	box-shadow: 4px 4px 2px grey;
+}
+
+/* main section for the landing page */
+section.face{
+	background: #B6B0Ba url('../img/JoshFaceCrop.png') no-repeat left top;
+	background-size: 75%
+}
+
+h1.white{ /* for the landing page */
+	display: block; margin-top: 0;
+	padding-top: 140.25pt; padding-left: 220.5pt;
+	font-family: 'Oswald', sans-serif;
+	font-size: 27pt; color: white;
+	line-height: 40pt; letter-spacing: 1.5pt;
+}
