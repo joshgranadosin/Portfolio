@@ -4,6 +4,10 @@ a:hover{
 	text-decoration: none !important;
 }
 
+a.logo:hover{
+	background-color: rgba(21, 174, 166, 1) !important;
+}
+
 div.hidden{
 	display: none;
 }
