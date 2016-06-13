@@ -23,6 +23,19 @@ a.left{
 	background-color: rgba(21, 174, 166, 1);
 }
 
+div.icon-link{
+	display: block;
+	margin-top: 30pt;
+	font-size: 30pt;
+	text-align: center;
+}
+
+a.icon-link{
+	padding: 5pt;
+	display: inline-block;
+	color: white;
+}
+
 /* main section styles */
 section.main{ /* all pages */
 	margin-left: 195.75pt;
