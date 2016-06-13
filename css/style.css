@@ -279,7 +279,7 @@ img.logo-square{
 		padding-top: 40pt;
 	}
 	a.toast{
-		display: none;
+		position: fixed; top: 75pt; right: 0pt;;
 	}
 }
 
