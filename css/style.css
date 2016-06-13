@@ -19,27 +19,29 @@ a.left{
 
 	font-family: 'Oswald', sans-serif;
 	font-size: 18pt; color: white;
+
+	background-color: rgba(21, 174, 166, 1);
 }
 
 /* main section styles */
 section.main{ /* all pages */
 	margin-left: 195.75pt;
-	width: 822.75pt; height: 100vh;
 }
 
-h1{ /* all pages */
+h1{
 	display: block; margin-top: 0;
 	text-align: left;
 	padding-top: 34pt; padding-left: 26pt;
+
 	font-family: 'Oswald', sans-serif;
-	font-size: 27pt; color: rgba(21, 174, 166, 1);
+	font-size: 42pt; color: rgba(21, 174, 166, 1);
 	line-height: 40pt; letter-spacing: 1.5pt;
 }
 
 p.white{
 	display: block;
 	width: 215pt;
-	padding-top: 18.75pt; margin-left: 308.25pt;
+	padding-top: 18.75pt; margin-left: 310pt;
 
 	font-family: 'Martel', sans-serif;
 	font-size: 12pt; color: #FEFCFF;
@@ -63,13 +65,114 @@ a.toast{
 /* main section for the landing page */
 section.face{
 	background: #B6B0Ba url('../img/JoshFaceCrop.png') no-repeat left top;
-	background-size: 75%
+	background-size: auto 100vh;
+	height: 100vh;
 }
 
 h1.white{ /* for the landing page */
 	display: block; margin-top: 0;
-	padding-top: 140.25pt; padding-left: 220.5pt;
+	padding-top: 140.25pt; padding-left: 310pt;
 	font-family: 'Oswald', sans-serif;
 	font-size: 27pt; color: white;
 	line-height: 40pt; letter-spacing: 1.5pt;
+}
+
+/* main section for the portfolio page */
+article{
+	display: flex;
+	width: 100%;
+	padding: 18pt 26pt;
+	justify-content: flex-start;
+}
+
+div.project-thumbnail{
+	display: inline-block;
+	padding-top: 20pt;
+	width: 207pt;
+	flex: none;
+}
+
+img.project-thumbnail{
+	width: 100%; height: auto;
+	border: 1px solid gray;
+}
+
+div.project-info{
+	padding-left: 15pt;
+	display: inline-block;
+	flex-grow: 1;
+}
+
+h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 27pt; color: rgba(21, 174, 166, 1);
+	line-height: 40pt; letter-spacing: 1.5pt;
+}
+
+img.tech-badge{
+	display: inline-block;
+	background: #333;
+	width: auto; height: 18pt;
+	border: 1px solid #333;
+	padding: 5px;
+	margin: 5px;
+}
+
+img.white{
+	background: white;
+	border: 1px solid white;
+	padding: 1px 5px;
+}
+
+a.project-info{
+	font-family: 'Lato', sans-serif;
+}
+
+p.project-info{
+	font-family: 'Lato', sans-serif;
+}
+
+/* main section for resume page */
+a.download{
+	width: 180pt; height: 43pt;
+	margin: 34pt auto 12pt 26pt;
+	padding: 0; padding-top: 12pt;
+	text-align: center;
+	font-size: 13.5pt;
+}
+
+h3{
+	display: block;
+	padding: 18pt 40pt;
+	margin: 0;
+
+	font-family: 'Oswald', sans-serif;
+	font-size: 14pt; color: rgba(21, 174, 166, 1);
+	letter-spacing: 1.5pt;
+}
+
+h4{
+	display: block;
+	padding: 5pt 40pt;
+	margin: 0;
+
+	font-family: 'Lato', sans-serif; font-weight: bold;
+	font-size: 12pt; color: rgba(38, 38, 38, 1);
+}
+
+h5{
+	display: block;
+	padding: 0pt 40pt;
+	margin: 0pt 0pt;
+	padding-bottom: 7pt;
+
+	font-family: 'Oswald', sans-serif;
+	font-size: 10pt; color: rgba(21, 174, 166, 1);
+}
+
+p.resume{
+	padding-left: 40pt;
+	
+	font-family: 'Lato', sans-serif;
+	color: rgba(38, 38, 38, 1);
 }
