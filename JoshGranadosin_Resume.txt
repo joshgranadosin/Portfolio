@@ -1,0 +1,35 @@
+JOSHUA GRANADOSIN
+Full Stack Web Developer
+joshgranadosin@gmail.com
+www.joshgranadosin.com
+(425)802-8288
+
+I am a full stack web developer with previous experience in design verification, working in fast paced product teams within a Fortune 100 company. This led to my interest in developing tools and products that will innovate solutions to challenging problems.
+
+TECHNICAL SKILLS
+
+Front-End  (HTML5, CSS, Javascript, JQuery, AJAX, Angular)
+Server (Node.js, Express, Ruby on Rails)
+Database (MongoDB, PostgreSQL)
+Versioning (GitHub, SourceDepot, TFS)
+
+WORK EXPERIECE
+
+Full Stack Web Developer
+GENERAL ASSEMBLY WEB DEVELOPMENT IMMERSIVE - 03/2016 - 06/2016
+
+Front-End (HTML5, CSS, Javascript, JQuery, AJAX, Angular)
+Server (Node.js, Express, Ruby on Rails)
+Database (MongoDB, PostgreSQL)
+
+Design Verification Engineer in Test
+MICROSOFT HARDWARE TESTING - SURFACE HUB - 09/2014 - 03/2016
+
+Executed, Developed, Analyzed, Reported, and Trained others in the following tests:
+End User Testing, Firmware Testing, Stress Testing, Power Testing (System), Hardware Debugging (Component changes, Signal Monitoring), Documentation (Work Instructions), Bug Triage and Tracking
+
+Design Verification Engineer in Test
+MICROSOFT HARDWARE TESTING - SURFACE PRO, LIFECAM, INTELLIMOUSE, XBOX, SURFACE TABLE - 06/2007 - 08/2014
+
+Executed, Developed, Analyzed, Reported, and Trained others in the following tests:
+End User Testing, Firmware Testing (Scripted Testing), Stress Testing (Scripted), Thermal Testing (Functionality, Noise), Power Testing (System), USB Compliance (Class), Hardware Debugging (Component changes, Signal Monitoring), Documentation (Work Instructions), Bug Triage and Tracking

@@ -69,10 +69,23 @@ aside.left{
 img.logo{
 	width: 138.75pt; height: 80.25pt;
 	margin-top: 33.75pt; margin-left: 27pt; margin-bottom: 50.25pt;
+	margin-bottom: 8pt; /* to add email */
+}
+
+a.email{
+	display: block;
+	width: 100%; height: 18pt;
+	padding-top: 0pt; padding-left: 29pt; margin-bottom: 40pt;
+	letter-spacing: 0.3pt;
+
+	font-family: 'Oswald', sans-serif;
+	font-size: 12pt; color: white;
+
+	background-color: rgba(21, 174, 166, 1);
 }
 
 a.left{
-	display: block;
+	display: inline-block;
 	width: 100%; height: 48.75pt;
 	padding-top: 10.5pt; padding-left: 33pt;
 
@@ -222,7 +235,7 @@ section.resume{
 a.download{
 	width: 180pt; height: 43pt;
 	margin: 34pt auto 12pt -10pt;
-	padding: 0; padding-top: 12pt;
+	padding: 0; padding-top: 12pt; margin-right: 40pt;
 	text-align: center;
 	font-size: 13.5pt;
 	border: 1px solid rgba(21, 174, 166, 1);;
