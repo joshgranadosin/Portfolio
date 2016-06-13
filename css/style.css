@@ -23,6 +23,16 @@ a.left{
 	background-color: rgba(21, 174, 166, 1);
 }
 
+a.active-left{
+	background-color: rgba(20, 154, 147, 1);
+}
+
+a.left:hover{
+	background-color: white;
+	color: rgba(21, 174, 166, 1);
+	text-decoration: none;
+}
+
 div.icon-link{
 	display: block;
 	margin-top: 30pt;
@@ -36,11 +46,16 @@ a.icon-link{
 	color: white;
 }
 
+a.icon-link:hover{
+	background-color: white;
+	color: rgba(21, 174, 166, 1);
+	text-decoration: none;
+}
+
 /* main section styles */
 section.main{ /* all pages */
 	margin-left: 195.75pt;
-	padding-left: 40pt;
-	padding-bottom: 40pt;
+	padding: 0 40pt 40pt 40pt;
 }
 
 h1{
@@ -49,14 +64,20 @@ h1{
 	padding-top: 34pt;
 
 	font-family: 'Oswald', sans-serif;
-	font-size: 42pt; color: rgba(21, 174, 166, 1);
+	font-size: 27pt; color: rgba(21, 174, 166, 1);
 	line-height: 40pt; letter-spacing: 1.5pt;
+}
+
+/* main section for the landing page */
+section.index{
+	background: #B6B0Ba url('../img/JoshFaceCrop.png') no-repeat left top;
+	background-size: auto 100vh;
+	height: 100vh;
 }
 
 p.white{
 	display: block;
-	width: 215pt;
-	padding-top: 18.75pt; margin-left: 310pt;
+	padding-top: 18.75pt; margin-left: 280pt;
 
 	font-family: 'Martel', sans-serif;
 	font-size: 12pt; color: #FEFCFF;
@@ -77,16 +98,15 @@ a.toast{
 	box-shadow: 4px 4px 2px grey;
 }
 
-/* main section for the landing page */
-section.index{
-	background: #B6B0Ba url('../img/JoshFaceCrop.png') no-repeat left top;
-	background-size: auto 100vh;
-	height: 100vh;
+a.toast:hover{
+	color: rgba(21, 174, 166, 1);
+	background-color: white;
+	text-decoration: none;
 }
 
-h1.white{ /* for the landing page */
+h1.white{
 	display: block; margin-top: 0;
-	padding-top: 140.25pt; padding-left: 310pt;
+	padding-top: 140.25pt; padding-left: 280pt;
 	font-family: 'Oswald', sans-serif;
 	font-size: 27pt; color: white;
 	line-height: 40pt; letter-spacing: 1.5pt;
@@ -120,7 +140,7 @@ div.project-info{
 
 h2{
 	font-family: 'Oswald', sans-serif;
-	font-size: 27pt; color: rgba(21, 174, 166, 1);
+	font-size: 20pt; color: rgba(21, 174, 166, 1);
 	line-height: 40pt; letter-spacing: 1.5pt;
 }
 
@@ -203,3 +223,4 @@ section.skills{
 img.logo-square{
 	height: 24px;
 }
+
