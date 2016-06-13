@@ -26,12 +26,14 @@ a.left{
 /* main section styles */
 section.main{ /* all pages */
 	margin-left: 195.75pt;
+	padding-left: 40pt;
+	padding-bottom: 40pt;
 }
 
 h1{
 	display: block; margin-top: 0;
 	text-align: left;
-	padding-top: 34pt; padding-left: 26pt;
+	padding-top: 34pt;
 
 	font-family: 'Oswald', sans-serif;
 	font-size: 42pt; color: rgba(21, 174, 166, 1);
@@ -63,7 +65,7 @@ a.toast{
 }
 
 /* main section for the landing page */
-section.face{
+section.index{
 	background: #B6B0Ba url('../img/JoshFaceCrop.png') no-repeat left top;
 	background-size: auto 100vh;
 	height: 100vh;
@@ -81,7 +83,7 @@ h1.white{ /* for the landing page */
 article{
 	display: flex;
 	width: 100%;
-	padding: 18pt 26pt;
+	padding: 18pt 0;
 	justify-content: flex-start;
 }
 
@@ -133,9 +135,13 @@ p.project-info{
 }
 
 /* main section for resume page */
+section.resume{
+	max-width: 511pt;
+}
+
 a.download{
 	width: 180pt; height: 43pt;
-	margin: 34pt auto 12pt 26pt;
+	margin: 34pt auto 12pt -10pt;
 	padding: 0; padding-top: 12pt;
 	text-align: center;
 	font-size: 13.5pt;
@@ -143,7 +149,7 @@ a.download{
 
 h3{
 	display: block;
-	padding: 18pt 40pt;
+	padding: 18pt 0pt;
 	margin: 0;
 
 	font-family: 'Oswald', sans-serif;
@@ -153,7 +159,7 @@ h3{
 
 h4{
 	display: block;
-	padding: 5pt 40pt;
+	padding: 5pt 0pt;
 	margin: 0;
 
 	font-family: 'Lato', sans-serif; font-weight: bold;
@@ -162,7 +168,7 @@ h4{
 
 h5{
 	display: block;
-	padding: 0pt 40pt;
+	padding: 0pt 0pt;
 	margin: 0pt 0pt;
 	padding-bottom: 7pt;
 
@@ -171,8 +177,16 @@ h5{
 }
 
 p.resume{
-	padding-left: 40pt;
+	padding: 0 0pt;
 	
 	font-family: 'Lato', sans-serif;
 	color: rgba(38, 38, 38, 1);
+}
+
+/* main section for skills page */
+section.skills{
+}
+
+img.logo-square{
+	height: 24px;
 }
