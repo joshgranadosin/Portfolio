@@ -221,6 +221,7 @@ a.download{
 	padding: 0; padding-top: 12pt;
 	text-align: center;
 	font-size: 13.5pt;
+	border: 1px solid rgba(21, 174, 166, 1);;
 }
 
 h3{
@@ -279,7 +280,7 @@ img.logo-square{
 		padding-top: 40pt;
 	}
 	a.toast{
-		position: fixed; top: 75pt; right: 0pt;;
+		display: none;
 	}
 }
 
