@@ -18,6 +18,7 @@ header{
 	height: 40pt; width: 100%;
 	background-color: rgba(21, 174, 166, 1);
 	position: fixed;
+	z-index: 100;
 	top: 0;
 }
 
@@ -40,12 +41,25 @@ a.nav{
 	background-color: rgba(21, 174, 166, 1);
 }
 
+a.nav-sm{
+	display: none;
+	padding: 11pt 24pt;
+	width: 40pt; height: 40pt;
+
+	font-family: 'Oswald', sans-serif;
+	font-size: 13.5pt; color: white;
+	letter-spacing: .4pt;
+
+	background-color: rgba(21, 174, 166, 1);
+}
+
 div.hamburger{
 	display: block;
 	position: fixed; top: 40pt; right: 0;
 
 	border: 1px solid rgba(21, 174, 166, 1);
 	background-color: rgba(21, 174, 166, 1);
+	z-index: 100;
 }
 
 a.hamburger{
@@ -130,9 +144,12 @@ h1{
 
 /* main section for the landing page */
 section.index{
-	background: #B6B0Ba url('../img/JoshFaceCrop.png') no-repeat left top;
+	background: #B6B0Ba url('../img/JoshFaceCrop.png') no-repeat;
 	background-size: auto 100vh;
-	height: 100vh;
+	height: 100%; min-height: 100vh;
+	/*background-attachment: fixed;*/
+	/*background-position: center;*/
+	position: absolute;
 }
 
 p.white{
@@ -294,10 +311,19 @@ img.logo-square{
 	}
 	section.main{
 		margin-left: 0pt;
-		padding-top: 40pt;
+		background-attachment: fixed;
 	}
 	a.toast{
 		display: none;
+	}
+	h1{
+		margin-top: 60pt;
+	}
+	a.download{
+		margin-top: 60pt;
+	}
+	a.txt{
+		margin-top: 10pt;
 	}
 }
 
@@ -317,5 +343,23 @@ img.logo-square{
 	div.project-thumbnail{
 		display: block;
 		margin-right: auto; margin-left: auto;
+	}
+}
+
+@media (max-width: 430px){
+	a.nav{
+		display:none;
+	}
+	a.nav-sm{
+		display:inline-block;
+	}
+}
+
+@media (max-height: 700px){
+	section.main{
+		height: inherit;
+	}
+	h1.white{
+		padding-top: 60pt;
 	}
 }
