@@ -362,4 +362,7 @@ img.logo-square{
 	h1.white{
 		padding-top: 60pt;
 	}
+	a.toast{
+		display: none;
+	}
 }
