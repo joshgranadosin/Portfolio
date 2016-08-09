@@ -4,32 +4,75 @@ joshgranadosin@gmail.com
 www.joshgranadosin.com
 (425)802-8288
 
-I am a full stack web developer with previous experience in design verification, working in fast paced product teams within a Fortune 100 company. This led to my interest in developing tools and products that will innovate solutions to challenging problems.
+I am a full stack web developer who is passionate about building better web products and services that help people in their everyday lives. I enjoy breaking down complex problems and creating simple yet thoughful solutions through clean and readable code.
 
 TECHNICAL SKILLS
 
-Front-End  (HTML5, CSS, Javascript, JQuery, AJAX, Angular)
+Front-End  (HTML5, CSS, JavaScript, JQuery, AJAX, Angular)
 Server (Node.js, Express, Ruby on Rails)
 Database (MongoDB, PostgreSQL)
-Versioning (GitHub, SourceDepot, TFS)
+Versioning (GitHub, SourceDepot, Team Foundation Server)
 
 WORK EXPERIECE
 
+GENERAL ASSEMBLY - 03/2016 - 06/2016
 Full Stack Web Developer
-GENERAL ASSEMBLY WEB DEVELOPMENT IMMERSIVE - 03/2016 - 06/2016
 
-Front-End (HTML5, CSS, Javascript, JQuery, AJAX, Angular)
-Server (Node.js, Express, Ruby on Rails)
-Database (MongoDB, PostgreSQL)
+12-Week immersive web development course that comes with 480 hours of in-class instruction, 50-80 hours of experience-based weekly work which yields 4 web application projects to showcase the use of various languages, frameworks and libraries.
+
+Projects:
+
+CHORD COMPOSER MAGIK - Full M.E.A.N. Stack App
+A web app that allows composers to create simple chord sheet music for guitar quickly and easily. It automatically draws chord tabs and can create draggable chord labels. Users can also save, print, and open. This app uses the full MEAN stack. (MongoDB/Mongoose, Express, Angular and Node)
+
+CODEPREP - Ruby on Rails
+Code-prep was collaborative project created to prepare junior developers with job interviews by providing timed white boarding questions of varying difficulty. My role was mostly in creating database models, back-end routes, and database interactions. The app uses Ruby on Rails and PostgreSQL.
+
+HOOD MATCH - NodeJS and Express
+Hoodmatch let's users find a neighborhood in Seattle similar to one that they entered. It utilizes Google Place's API to search for the closest match among more than a hundred neighborhoods. This was my very first full-stack app.
+
+SUNGKA - HTML5, CSS3, and Vanilla Javascript
+A traditional Filipino game adapted to a web-app. This version was done in pure vanilla javascript (no jQuery). The app is front-end only and features a rudimentary AI in 1 player mode, a 2-player mode, and extended play.
+
+Skills Utilized:
+HTML5, CSS, Javascript, JQuery, AJAX, Angular, Node.js, Express, Ruby on Rails, MongoDB, PostgreSQL, and GitHub.
 
 Design Verification Engineer in Test
 MICROSOFT HARDWARE TESTING - SURFACE HUB - 09/2014 - 03/2016
 
-Executed, Developed, Analyzed, Reported, and Trained others in the following tests:
-End User Testing, Firmware Testing, Stress Testing, Power Testing (System), Hardware Debugging (Component changes, Signal Monitoring), Documentation (Work Instructions), Bug Triage and Tracking
+Hardware, Firmware, and Software Integration Testing:
+Executed, developed, analyzed, documented, reported, and trained other testers to run integration tests with each firmware and major software release for the Surface Hub.
+
+Build Verification Testing:
+Executed, developed, analyzed, documented, reported, streamlined, and trained other testers to run daily or bi-weekly build verification test for the Surface Hub.
+
+Bug Triage:
+Analyzed, investigated, triaged, and assigned issues reported from within and outside the team.
+
+Service:
+Modified, updated, or fixed Surface Hub hardware to support test, development, and marketing teams.
 
 Design Verification Engineer in Test
 MICROSOFT HARDWARE TESTING - SURFACE PRO, LIFECAM, INTELLIMOUSE, XBOX, SURFACE TABLE - 06/2007 - 08/2014
 
-Executed, Developed, Analyzed, Reported, and Trained others in the following tests:
-End User Testing, Firmware Testing (Scripted Testing), Stress Testing (Scripted), Thermal Testing (Functionality, Noise), Power Testing (System), USB Compliance (Class), Hardware Debugging (Component changes, Signal Monitoring), Documentation (Work Instructions), Bug Triage and Tracking
+Roles:
+
+Hardware, Firmware, and Software Integration Testing:
+Executed, developed, analyzed, documented, reported, and trained other testers to run integration tests with each firmware and major software release for the Surface Pro, LifeCam and Intellimouse.
+
+Build Verification Testing:
+Executed, developed, analyzed, documented, reported, streamlined, and trained other testers to run weekly build verification test for the Surface Hub.
+
+Bug Triage:
+Analyzed, investigated, triaged, and assigned issues reported from within and outside the Surface Pro, LifeCam, Intellimouse teams.
+
+Service:
+Modified, updated, or fixed Surface Pro, LifeCam, Intellimouse, XBox, and Surface Table hardware to support test, development, and marketing teams.
+
+
+EDUCATION
+GENERAL ASSEMBLY SEATTLE
+2016 - Web Development Immersive
+
+SEATTLE UNIVERSITY
+2010 - Bachelors of Science in Electrical Engineering
