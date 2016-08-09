@@ -193,7 +193,7 @@ h1.white{
 article{
 	display: flex;
 	width: 100%;
-	padding: 18pt 0;
+	padding: 0;
 	justify-content: flex-start;
 }
 
@@ -245,8 +245,24 @@ p.project-info{
 }
 
 /* main section for resume page */
+article{
+	display: flex;
+}
+
+div.timeline{
+	width: 160pt; padding-right: 12pt;
+	text-align: right;
+}
+
+div.timeline-entry{
+	max-width: 350pt;
+	padding-left: 12pt;
+	border-left: 2px solid lightgray;
+}
+
+
 section.resume{
-	max-width: 511pt;
+	max-width: 591pt;
 }
 
 a.download{
@@ -255,25 +271,30 @@ a.download{
 	padding: 0; padding-top: 12pt; margin-right: 40pt;
 	text-align: center;
 	font-size: 13.5pt;
-	border: 1px solid rgba(21, 174, 166, 1);;
+	border: 1px solid rgba(21, 174, 166, 1);
 }
 
 h3{
 	display: block;
-	padding: 18pt 0pt;
+	padding: 0pt 0pt 20pt 0pt;
 	margin: 0;
 
-	font-family: 'Oswald', sans-serif;
-	font-size: 14pt; color: rgba(21, 174, 166, 1);
+	font-family: 'Lato', sans-serif; font-weight: bold;
+	font-size: 14pt; color: rgba(38, 38, 38, 1);
 	letter-spacing: 1.5pt;
+}
+
+h3.timeline-entry{
+	color: rgba(21, 174, 166, 1);
+	padding: 0 0 12pt 0;
 }
 
 h4{
 	display: block;
-	padding: 5pt 0pt;
+	padding: 0pt;
 	margin: 0;
 
-	font-family: 'Lato', sans-serif; font-weight: bold;
+	font-family: 'Lato', sans-serif;
 	font-size: 12pt; color: rgba(38, 38, 38, 1);
 }
 
@@ -283,8 +304,18 @@ h5{
 	margin: 0pt 0pt;
 	padding-bottom: 7pt;
 
-	font-family: 'Oswald', sans-serif;
-	font-size: 10pt; color: rgba(21, 174, 166, 1);
+	font-family: 'Lato', sans-serif; font-weight: bold;
+	font-size: 12pt; color: rgba(21, 174, 166, 1);
+}
+
+h6{
+	display: block;
+	padding: 0pt 0pt;
+	margin: 0pt 0pt;
+	padding-bottom: 7pt;
+
+	font-family: 'Lato', sans-serif; font-weight: bold;
+	font-size: 12pt; color: rgba(38, 38, 38, 1);
 }
 
 p.resume{
