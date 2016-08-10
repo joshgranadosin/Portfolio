@@ -245,17 +245,22 @@ p.project-info{
 }
 
 /* main section for resume page */
+hr{
+	border: 1px solid lightgray;
+}
+
 article{
-	display: flex;
+	
 }
 
 div.timeline{
-	width: 160pt; padding-right: 12pt;
+	max-width: 150pt; min-width: 150pt;
+	padding-right: 12pt;
 	text-align: right;
 }
 
 div.timeline-entry{
-	max-width: 350pt;
+	max-width: 360pt;
 	padding-left: 12pt;
 	border-left: 2px solid lightgray;
 }
@@ -331,6 +336,7 @@ section.skills{
 
 img.logo-square{
 	height: 24px;
+	padding-right: 8px;
 }
 
 @media (max-width: 930px){
@@ -374,6 +380,15 @@ img.logo-square{
 	div.project-thumbnail{
 		display: block;
 		margin-right: auto; margin-left: auto;
+	}
+	div.timeline{
+		text-align: left;
+		padding-bottom: 10pt;
+		max-width: 511pt;
+	}
+	article{
+		margin-bottom: 20pt;
+		padding-bottom: 0;
 	}
 }
 
