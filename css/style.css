@@ -190,13 +190,6 @@ h1.white{
 }
 
 /* main section for the portfolio page */
-article{
-	display: flex;
-	width: 100%;
-	padding: 0;
-	justify-content: flex-start;
-}
-
 div.project-thumbnail{
 	display: inline-block;
 	padding-top: 20pt;
@@ -250,7 +243,10 @@ hr{
 }
 
 article{
-	
+	display: flex;
+	width: 100%;
+	padding: 0;
+	justify-content: flex-start;
 }
 
 div.timeline{
@@ -374,9 +370,6 @@ img.logo-square{
 	p.white{
 		margin-left: 0pt;
 	}
-	article{
-		display: block;
-	}
 	div.project-thumbnail{
 		display: block;
 		margin-right: auto; margin-left: auto;
@@ -387,6 +380,7 @@ img.logo-square{
 		max-width: 511pt;
 	}
 	article{
+		display: block;
 		margin-bottom: 20pt;
 		padding-bottom: 0;
 	}
