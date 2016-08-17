@@ -16,7 +16,7 @@ Versioning (GitHub, SourceDepot, Team Foundation Server)
 WORK EXPERIECE
 
 GENERAL ASSEMBLY - 03/2016 - 06/2016
-Full Stack Web Developer
+Web Developer
 
 12-Week immersive web development course that comes with 480 hours of in-class instruction, 50-80 hours of experience-based weekly work which yields 4 web application projects to showcase the use of various languages, frameworks and libraries.
 
