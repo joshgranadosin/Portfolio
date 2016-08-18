@@ -335,6 +335,13 @@ img.logo-square{
 	padding-right: 8px;
 }
 
+img.php{
+	width: 24px; height: auto;
+	margin-right: 8px;
+	padding-right: 0px;
+	margin-left: 2px;
+}
+
 @media (max-width: 930px){
 	header{
 		display: block;
